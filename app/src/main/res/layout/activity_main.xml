@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:weightSum="3"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -13,18 +14,20 @@
         android:layout_height="match_parent"
         android:layout_gravity="clip_vertical|end"
         android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
         android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="right|center_vertical"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
@@ -60,7 +63,9 @@
         android:layout_height="match_parent"
         android:layout_marginTop="2dp"
         android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
         android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardUseCompatPadding="true">
 
@@ -96,7 +101,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                app:srcCompat="@drawable/lottery" />
+                app:srcCompat="@drawable/constellation" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -107,7 +112,9 @@
         android:layout_height="match_parent"
         android:layout_marginTop="2dp"
         android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
         android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
         app:cardCornerRadius="8dp"
         app:cardUseCompatPadding="true">
 
@@ -143,7 +150,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-                app:srcCompat="@drawable/lottery" />
+                app:srcCompat="@drawable/name" />
 
         </LinearLayout>
 

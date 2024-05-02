@@ -15,7 +15,6 @@ class TestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
         W = ActivityTestBinding.inflate(layoutInflater)
         setContentView(W.root)
 
