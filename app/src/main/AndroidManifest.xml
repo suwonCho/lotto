@@ -6,10 +6,11 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/money"
+        android:roundIcon="@drawable/money"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lotto"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
             android:name=".ConstrarintLayoutActivity"
@@ -23,15 +24,15 @@
             android:exported="false"></activity>
         <activity
             android:name=".ResultActivity"
-            android:theme="@style/Theme.Result"
+            android:theme="@style/AppTheme.Result"
             android:exported="false" />
         <activity
             android:name=".NameActivity"
-            android:theme="@style/Theme.Name"
+            android:theme="@style/AppTheme.Name"
             android:exported="false" />
         <activity
             android:name=".ConstllationActivity"
-            android:theme="@style/Theme.Constellation"
+            android:theme="@style/AppTheme.Constllation"
             android:exported="true" >
         </activity>
         <activity
@@ -42,6 +43,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
